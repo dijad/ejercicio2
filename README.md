@@ -15,7 +15,7 @@ curl --request POST \
   --form 'file=...ejemplo.txt' \
   --form 'file1=...\ejemplo1.txt'
 
-Para encontrar palabras, se busca la cantidad de veces que aparece la cedana buscada entodo el archivo
+Para encontrar palabras, se busca la cantidad de veces que aparece la cedana buscada en todo el archivo y devuelve el número de repeticiones ocurridas.
 
 curl --request POST \
   --url 'http://localhost:4000/api/file/find-word?word=a' \
